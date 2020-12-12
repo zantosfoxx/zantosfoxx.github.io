@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Foxxy Sly</h2>
+        <img id="bio-image" src="data:image/jpeg;base64,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" alt="Foxxy Sly">
+      </section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
+</body>
+
+</html>
